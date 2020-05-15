@@ -59,7 +59,7 @@ class Parent extends React.Component {
     return(
       <div>
         <h2 onClick={this.handleClick}>Component Parent : Just for info </h2>
-        <Cars msg="Car is cool" model="Version 2548" typeCars={this.state.cars} />
+        <Cars msg="Car is cool ever" model="Version 2548" typeCars={this.state.cars} />
 
       </div>
     );
